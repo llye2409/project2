@@ -1,2 +1,1 @@
-# Procfile
-web: gunicorn app:runsv --log-file -
+web: gunicorn app:runsv
