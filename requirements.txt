@@ -1,0 +1,4 @@
+flask
+werkzeug
+urllib
+flask_paginate
