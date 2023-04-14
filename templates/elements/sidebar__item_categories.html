@@ -1,0 +1,11 @@
+<div class="sidebar__item">
+    {% if Categories %}
+    <h4>Category</h4>
+    <ul>
+        {% for category in Categories %}
+        <li><a href="{{ url_for('category_product', category_name=category) }}">{{category}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>
