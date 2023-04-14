@@ -1,0 +1,52 @@
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #7fad39;
+    border-color: #7fad39;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #6c757d;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7fad39;
+    border-color: #7fad39;
+}
+a {
+    color: #6c757d;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.filter__found_user {
+    text-align: center;
+  }
+  
+
+.product-rating {
+display: flex;
+align-items: center;
+font-size: 16px;
+}
+
+.fa-star {
+color: #ffc107;
+}
+
+.fa-star-half-o {
+color: #ffc107;
+}
+
+.checked {
+color: #ffc107;
+}
+  
