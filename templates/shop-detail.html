@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Chi tiết sản phẩm{% endblock %}
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+<!-- Main -->
+{% block content %}
+    <!-- Product deltail Section -->
+    {% block products %}{% include 'elements/product-details.html' %}{% endblock %}
+    <!-- Related product Section -->
+    {% block related_product %}{% include 'elements/related-product2.html' %}{% endblock %}
+
+{% endblock %}
