@@ -1,4 +1,4 @@
 flask
-werkzeug
-urllib
-flask_paginate
+Werkzeug==2.2.2
+urllib3==1.26.14
+flask-paginate==2022.1.8
