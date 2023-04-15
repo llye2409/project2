@@ -1,5 +1,5 @@
 flask
-python==python3.6.8
+python
 Werkzeug==2.2.2
 urllib3==1.26.14
 flask-paginate==2022.1.8
